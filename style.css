@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: url('img/home_bg.jpeg') center center/cover no-repeat;
+    height: 100vh;
+}
+
+
+.conect{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.conect img{
+    width:80px ;
+    margin: 15px 20px;
+}
+.conect ul{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: aliceblue;
+}
+.conect ul li a:hover{
+
+  border-color: aliceblue;
+    border-bottom: 25px;
+}
+
+.text{
+    margin: 200px 0px;
+}
+.text h1{
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+}
+.text p{
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+}
+.text a{
+ display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+border-size: 10px;
+border-color: rgb(17, 17, 17);
+}
+
+.Home{
+   ext-align: center;
+   }
+.f{
+    text-align: center;
+}
+h1{
+    margin: 25px 0px 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+    width: 800px;
+    margin: 20px;
+}
+.m{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+}
+.container{
+    background: url('img/offer-background.jpg') center center/cover no-repeat;
+    display: flex;
+justify-content: center;
+height:75vh ;
+}
+.product{
+    margin-bottom:4rem; 
+    text-align: center;
+}
+.product h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: antiquewhite;
+}
+.product{
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.product img{
+    width: px;
+}
+.product p{
+    color: aliceblue;
+}
+.mohamed p{
+    display: flex;
+    justify-content: center;
+
+}
+.fayrouz img{
+    width: 80px;
+    margin:4rem 0rem ;
+}
+.fayrouz{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.omar{
+    background: url('img/daytime_bg.jpeg') center center/cover no-repeat;
+    height:50vh ;
+}
+.anas{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.anas img{
+    margin-top: 50px;
+}
+.hussine img{
+
+    width: 100px;
+    padding:20px ;
+    }
+.saber{
+    background: url('img/offer-background.jpg') center center/cover no-repeat;
+    height: 50vh;
+}
+.hussine{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: center center;
+    }
+    .hussine p{
+        color: aliceblue;
+        font-size: larger;
+    }
